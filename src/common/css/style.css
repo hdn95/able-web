@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+/*[class^="el-icon-ump"], [class*=" el-icon-ump"] {*/
+/*font-family: "iconfont" !important;*/
+/*font-style: normal;*/
+/*-webkit-font-smoothing: antialiased;*/
+/*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/*详细模块表单数据展现样式*/
+
+.detail-form-wrapper-container {
+  height: 100%;
+}
+
+.detail-form-wrapper-container .detail-el-row:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
+.detail-form-wrapper-container .detail-item-container {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  flex-direction: column;
+}
+
+.detail-form-wrapper-container .detail-item-container .left-title {
+  font-size: .875rem;
+  color: #909399;
+  margin-bottom: .5rem;
+}
+
+.detail-form-wrapper-container .detail-item-container .right-content {
+  display: flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  font-size: .875rem;
+  border-bottom: 1px solid #E4E7ED;
+  padding-bottom: .3rem;
+  width: 90%;
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  /*white-space: nowrap;*/
+}
+
+/*详细模块表单数据展现样式*/
+
+/*辅助文字样式*/
+.auxiliary-text {
+  margin-top: .5rem;
+  font-size: .8125rem;
+  color: #909399;
+}
+
+/*清除左外边距*/
+.clmr {
+  margin-left: 0px !important;
+  width: 83% !important;
+}
+
+/*上外边距1rem*/
+.mt1:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.right-wrapper-container {
+  width: calc(100% - 15rem);
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  flex-direction: column;
+}
+
+.cus-table {
+  border-radius: .3rem;
+  width: 100%;
+  box-shadow: .1rem .1rem .2rem #dfdfdf;
+}
+
+.form-item-btn-container .btn i {
+  color: #409EFF;
+  cursor: pointer;
+}
+
+.form-item-btn-container .btn {
+  margin-left: .5rem;
+}
+
+.form-item-btn-container {
+  display: flex;;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+
+/*标题模块样式*/
+.title-module-wrapper-container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  height: 2rem;
+  align-items: center;
+  font-size: .8125rem;
+  color: #606266;
+}
+
+.title-module-wrapper-container .left-title-module:before {
+  content: "";
+  border-left: .35rem solid #4A5B79;
+  padding-right: .35rem;
+}
+
+.title-module-wrapper-container .right-title-module {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #409EFF;
+}
+
+/*标题模块样式*/
+
+/*树结构数据模块样式*/
+
+.tree-module-wrapper-container {
+  width: 30%;
+  height: 25rem;
+  padding-right: 1rem;
+  border-right: 1px solid #E4E7ED;
+}
+
+/*树结构数据模块样式*/
+
+.module-wrapper-container {
+  /*margin-top: 2rem;*/
+  font-size: .875rem;
+  display: flex;
+  display: -webkit-flex;
+}
+
+/*表单模块样式*/
+.mpt2 {
+  margin-top: 2rem;
+}
+
+.pl0 {
+  padding-left: 0rem !important;
+}
+
+.form-module-wrapper-container {
+  padding-left: 2rem;
+  font-size: .875rem;
+}
+
+.form-module-wrapper-container .content-wrapper-container {
+  margin-top: 1rem;
+}
+
+.form-module-wrapper-container .content-wrapper-container .title {
+  color: #909399
+}
+
+.form-module-wrapper-container .content-wrapper-container .el-form-item {
+  margin-right: 1.25rem;
+}
+
+.form-module-wrapper-container .content-wrapper-container .el-form-item-button {
+  margin-top: 1rem;
+}
+
+/*表单模块样式*/
+
+/*查询条件样式区*/
+.conditional-query-container .query-wrapper-row .query-wrapper-row-left {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 6%;
+}
+
+.conditional-query-container .query-wrapper-row .query-wrapper-row-right {
+  margin-right: 1rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+}
+
+.conditional-query-container .query-wrapper-row-item .label-text {
+  color: #C0C4CC;
+  font-size: .75rem;
+  padding-bottom: .3rem;
+}
+
+.conditional-query-container .query-wrapper-row-item {
+  height: 3.5rem;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.conditional-query-container .query-wrapper-row-item:last-child {
+  padding-right: 0;
+}
+
+.conditional-query-container .query-wrapper-row {
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  font-size: .875rem;
+  height: 3.5rem;
+}
+
+.conditional-query-container .query-wrapper-row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.conditional-query-container {
+  /*background-color: #EBEEF5;*/
+  padding: 1rem;
+  border: 1px solid #e4e7ed;
+  border-radius: 0.3rem;
+}
+
+/*查询条件样式区*/
+
+/*卡片样式 主要用在设备上*/
+
+.card-wrapper-container .card-header-main-title-container {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header-main-title-container .title-left-container {
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-wrapper-container .card-header-assist-title-container {
+  padding-top: .3rem;
+  font-size: .75rem;
+  color: #909399;
+}
+
+.card-wrapper-container .card-content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-start;
+}
+
+.card-content-container .content-left-container {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.card-content-container .content-right-container {
+  width: 100%;
+  font-size: .75rem;
+}
+
+.circle-normal {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #67C23A;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.circle-error {
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #F56C6C;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
